@@ -14,3 +14,6 @@ ctx.fillStyle = "rgba(0,100,200,0.5)";
 ctx.fillRect(10, 25, 100, 100);
 ctx.clearRect(35, 25, 40, 40);
 ctx.strokeRect(125, 75, 50, 50);
+
+ctx.beginPath();
+ctx.moveTo(180, 150);
