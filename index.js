@@ -15,5 +15,9 @@ ctx.fillRect(10, 25, 100, 100);
 ctx.clearRect(35, 25, 40, 40);
 ctx.strokeRect(125, 75, 50, 50);
 
+ctx.fillStyle = "rgba(200,100,200, 0.8)";
 ctx.beginPath();
 ctx.moveTo(180, 150);
+ctx.lineTo(100, 75);
+ctx.lineTo(100, 150);
+ctx.fill();
